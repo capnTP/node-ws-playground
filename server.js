@@ -60,7 +60,7 @@ app.get('/bad' , (req, res) => {
 
 app.get('/portfolio', (req, res) => {
   res.render('portfolio.hbs', {
-    pageTitle: 'Welcome to our portfolio page!'
+    pageTitle: 'Welcome to the projects page!'
   });
 });
 
